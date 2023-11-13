@@ -30,7 +30,7 @@ namespace MyWebApplication.Security
                 }
             }
 
-            context.Result = new RedirectResult("~/Home/UnAuthorized"); // Need to create a separate page
+            context.Result = new RedirectResult("~/Page/NotAdmin"); // Need to create a separate page
         }
     }
 }
